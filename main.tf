@@ -33,6 +33,7 @@ resource "github_repository_collaborator" "softservedata" {
   permission = "push"
 }
 
+#end
 # Create develop branch
 resource "github_branch" "develop" {
   repository    = data.github_repository.existing.name
