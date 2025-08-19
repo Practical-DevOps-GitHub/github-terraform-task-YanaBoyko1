@@ -161,7 +161,9 @@ output "deploy_private_key" {
   value       = tls_private_key.deploy_key.private_key_openssh
   sensitive   = true
   description = "Private key for DEPLOY_KEY - save this securely!"
+
 }
+
 
 
 #end block
